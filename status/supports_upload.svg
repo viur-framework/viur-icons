@@ -2,41 +2,41 @@
 <!-- Generator: Adobe Illustrator 16.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="256px" height="256px" viewBox="0 0 256 256" enable-background="new 0 0 256 256" xml:space="preserve">
+	 width="82px" height="93px" viewBox="88.5 64.5 82 93" enable-background="new 88.5 64.5 82 93" xml:space="preserve">
 <g opacity="0.3">
 	<g>
 		<g>
 			
-				<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="267.0439" y1="-56.832" x2="336.14" y2="-246.672" gradientTransform="matrix(1 0 0 -1 -169.5 -36)">
+				<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="569.8477" y1="552.3633" x2="592.5779" y2="614.8143" gradientTransform="matrix(1 0 0 1 -451 -473)">
 				<stop  offset="0.5" style="stop-color:#FFFFFF"/>
 				<stop  offset="1" style="stop-color:#E9E9E9"/>
 			</linearGradient>
-			<polygon fill="url(#SVGID_1_)" points="203.936,19.016 102.533,19.016 54.647,66.901 54.647,197.098 203.936,197.098 			"/>
-			<path fill="#969696" d="M205.286,198.448H53.297V66.342l48.677-48.677h103.312V198.448z M55.999,195.747h146.586V20.366h-99.492
-				L55.999,67.46V195.747z"/>
+			<polygon fill="url(#SVGID_1_)" points="153.847,78.765 120.489,78.765 104.735,94.518 104.735,137.349 153.847,137.349 			"/>
+			<path fill="#969696" d="M154.291,137.793h-50V94.333l16.013-16.013h33.986V137.793z M105.18,136.904h48.222V79.209h-32.729
+				L105.18,94.702V136.904z"/>
 		</g>
 		<g>
 			
-				<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="243.1953" y1="-65.5127" x2="258.5852" y2="-107.7961" gradientTransform="matrix(1 0 0 -1 -169.5 -36)">
+				<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="562.002" y1="555.2178" x2="567.0648" y2="569.1278" gradientTransform="matrix(1 0 0 1 -451 -473)">
 				<stop  offset="0" style="stop-color:#FFFFFF"/>
 				<stop  offset="1" style="stop-color:#E8E8E8"/>
 			</linearGradient>
-			<polygon fill="url(#SVGID_2_)" points="102.533,19.016 54.647,66.901 102.533,66.901 			"/>
-			<path fill="#969696" d="M102.533,68.252H54.647c-0.546,0-1.039-0.329-1.248-0.833c-0.208-0.505-0.093-1.085,0.293-1.472
-				l47.886-47.886c0.385-0.388,0.969-0.5,1.472-0.293c0.505,0.209,0.833,0.702,0.833,1.248v47.886
-				C103.884,67.647,103.279,68.252,102.533,68.252z M57.908,65.551h43.275V22.276L57.908,65.551z"/>
+			<polygon fill="url(#SVGID_2_)" points="120.489,78.765 104.735,94.518 120.489,94.518 			"/>
+			<path fill="#969696" d="M120.489,94.962h-15.753c-0.179,0-0.342-0.108-0.41-0.274s-0.031-0.357,0.096-0.484l15.753-15.753
+				c0.127-0.127,0.319-0.165,0.484-0.096c0.166,0.069,0.274,0.231,0.274,0.411v15.753C120.933,94.763,120.734,94.962,120.489,94.962
+				z M105.809,94.073h14.236V79.837L105.809,94.073z"/>
 		</g>
 	</g>
 	<g>
 		
-			<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="299.9238" y1="-113.4102" x2="299.9238" y2="-201.6489" gradientTransform="matrix(1 0 0 -1 -169.5 -36)">
+			<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="580.6641" y1="570.9746" x2="580.6641" y2="600.002" gradientTransform="matrix(1 0 0 1 -451 -473)">
 			<stop  offset="0" style="stop-color:#3F9D38"/>
 			<stop  offset="1" style="stop-color:#317E3B"/>
 		</linearGradient>
-		<polygon fill="url(#SVGID_3_)" points="130.423,77.41 83.532,118.763 83.532,165.648 130.423,119.48 177.316,165.648 
-			177.316,118.763 		"/>
-		<path fill="#225E26" d="M81.731,169.951V117.95l48.692-42.94l48.694,42.94v52.001l-48.694-47.942L81.731,169.951z
-			 M130.423,116.952l45.093,44.397v-41.773L130.423,79.81l-45.09,39.766v41.773L130.423,116.952z"/>
+		<polygon fill="url(#SVGID_3_)" points="129.664,97.975 114.238,111.579 114.238,127.002 129.664,111.814 145.09,127.002 
+			145.09,111.579 		"/>
+		<path fill="#225E26" d="M113.646,128.418v-17.106l16.019-14.126l16.019,14.126v17.106l-16.019-15.771L113.646,128.418z
+			 M129.664,110.983l14.834,14.605v-13.742l-14.834-13.082l-14.833,13.082v13.742L129.664,110.983z"/>
 	</g>
 </g>
 </svg>
