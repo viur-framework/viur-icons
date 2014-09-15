@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="64px" height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+<g>
+	<g>
+		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="23.1309" y1="18.0605" x2="23.1309" y2="63.6836">
+			<stop  offset="0" style="stop-color:#C0AD8D"/>
+			<stop  offset="1" style="stop-color:#9B8C74"/>
+		</linearGradient>
+		<rect x="0.321" y="18.061" fill-rule="evenodd" clip-rule="evenodd" fill="url(#SVGID_1_)" width="45.618" height="45.623"/>
+		<path fill="#776559" d="M45.939,64H0.321L0,63.684V18.061l0.321-0.317h45.618l0.323,0.317v45.623L45.939,64z M0.639,63.361h44.984
+			V18.382H0.639V63.361z"/>
+	</g>
+	<g>
+		<polygon fill-rule="evenodd" clip-rule="evenodd" fill="#9B8C74" points="45.939,18.164 0.321,18.164 20.593,5.496 63.684,5.496 
+					"/>
+		<path fill="#776559" d="M45.939,18.485H0.321l-0.167-0.588L20.428,5.222l0.165-0.047h43.091l0.181,0.579L46.126,18.426
+			L45.939,18.485z M1.429,17.847h44.412L62.688,5.813H20.685L1.429,17.847z"/>
+	</g>
+	<g>
+		<polygon fill-rule="evenodd" clip-rule="evenodd" fill="#B09F83" points="63.684,51.01 45.939,63.684 45.939,18.061 63.684,5.389 
+					"/>
+		<path fill="#776559" d="M46.126,63.94l-0.503-0.257V18.061l0.131-0.257L63.498,5.13L64,5.389V51.01l-0.136,0.257L46.126,63.94z
+			 M46.263,18.223v44.839l17.099-12.217V6.01L46.263,18.223z"/>
+	</g>
+</g>
+</svg>

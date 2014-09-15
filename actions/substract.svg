@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="64px" height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+<g>
+	
+		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="563" y1="818.0156" x2="563" y2="799.9834" gradientTransform="matrix(1 0 0 1 -531 -777)">
+		<stop  offset="0" style="stop-color:#E20613"/>
+		<stop  offset="1" style="stop-color:#B41622"/>
+	</linearGradient>
+	<polygon fill="url(#SVGID_1_)" stroke="#BD1622" stroke-miterlimit="10" points="63.499,41.016 63.499,22.983 41.016,22.983 
+		22.983,22.983 0.501,22.983 0.501,41.016 22.983,41.016 41.016,41.016 	"/>
+	<path fill="#AA000D" d="M22.482,41.518H0V22.482h22.482h19.034H64v19.034H41.516L22.482,41.518z M62.997,40.516V23.485
+		L1.002,23.484v17.03L62.997,40.516z"/>
+</g>
+</svg>

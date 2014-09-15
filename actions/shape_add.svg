@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="64px" height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+<g>
+	<g>
+		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="27.8027" y1="55.3154" x2="27.8027" y2="0.4785">
+			<stop  offset="0" style="stop-color:#CBCCCE"/>
+			<stop  offset="1" style="stop-color:#A4A5A7"/>
+		</linearGradient>
+		<rect x="0.385" y="0.479" fill-rule="evenodd" clip-rule="evenodd" fill="url(#SVGID_1_)" width="54.837" height="54.837"/>
+		<path fill="#605F61" d="M55.222,55.701H0.385L0,55.315V0.479l0.385-0.386h54.837l0.386,0.386v54.837L55.222,55.701z M0.771,54.931
+			h54.065V0.864H0.771V54.931z"/>
+	</g>
+	<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="27.8047" y1="7.5742" x2="27.8047" y2="48.2217">
+		<stop  offset="0" style="stop-color:#CBCCCE"/>
+		<stop  offset="1" style="stop-color:#A4A5A7"/>
+	</linearGradient>
+	<rect x="7.48" y="7.574" fill-rule="evenodd" clip-rule="evenodd" fill="url(#SVGID_2_)" width="40.647" height="40.647"/>
+	<g>
+		
+			<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="-562.7612" y1="-1544.9575" x2="-537.5277" y2="-1519.724" gradientTransform="matrix(0.7071 0.7071 -0.7071 0.7071 -648.8658 1518.1691)">
+			<stop  offset="0" style="stop-color:#42A03F"/>
+			<stop  offset="1" style="stop-color:#348342"/>
+		</linearGradient>
+		<polygon fill="url(#SVGID_3_)" points="63.486,50.75 63.486,40.538 50.751,40.538 50.751,27.801 40.54,27.801 40.54,40.538 
+			27.804,40.538 27.804,50.75 40.54,50.75 40.54,63.486 50.751,63.486 50.751,50.75 		"/>
+		<path fill="#25632C" d="M51.265,64H40.025V51.264H27.29v-11.24h12.735V27.287h11.239v12.736H64v11.24H51.265V64z M41.053,62.973
+			h9.185V50.236h12.735v-9.186H50.237V28.314h-9.185v12.736H28.317v9.186h12.735V62.973z"/>
+	</g>
+</g>
+</svg>

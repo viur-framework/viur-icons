@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="64px" height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+<g>
+	<g>
+		<g>
+			<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="23.1299" y1="18.0586" x2="23.1299" y2="63.6816">
+				<stop  offset="0" style="stop-color:#C0AD8D"/>
+				<stop  offset="1" style="stop-color:#9B8C74"/>
+			</linearGradient>
+			<rect x="0.318" y="18.059" fill-rule="evenodd" clip-rule="evenodd" fill="url(#SVGID_1_)" width="45.623" height="45.623"/>
+			<path fill="#776559" d="M45.941,64H0.318L0,63.682V18.059l0.318-0.318h45.623l0.318,0.318v45.623L45.941,64z M0.638,63.362
+				h44.984V18.378H0.638V63.362z"/>
+		</g>
+		<g>
+			<polygon fill-rule="evenodd" clip-rule="evenodd" fill="#9B8C74" points="45.941,18.165 0.318,18.165 20.596,5.493 63.682,5.493 
+							"/>
+			<path fill="#776559" d="M45.941,18.483H0.318l-0.169-0.589L20.427,5.223l0.169-0.048h43.086l0.185,0.578l-17.74,12.671
+				L45.941,18.483z M1.43,17.847h44.409L62.688,5.812H20.687L1.43,17.847z"/>
+		</g>
+		<g>
+			<polygon fill-rule="evenodd" clip-rule="evenodd" fill="#B09F83" points="63.682,51.008 45.941,63.682 45.941,18.059 
+				63.682,5.387 			"/>
+			<path fill="#776559" d="M46.126,63.94l-0.504-0.259V18.059l0.134-0.259l17.74-12.672L64,5.387v45.621l-0.134,0.259L46.126,63.94z
+				 M46.26,18.224v44.839l17.103-12.22V6.006L46.26,18.224z"/>
+		</g>
+	</g>
+	<g>
+		<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="24.6582" y1="31.7832" x2="14.8781" y2="62.5998">
+			<stop  offset="0" style="stop-color:#4FA44A"/>
+			<stop  offset="1" style="stop-color:#2D8D4B"/>
+		</linearGradient>
+		<polygon fill-rule="evenodd" clip-rule="evenodd" fill="url(#SVGID_2_)" points="32.001,23.52 27.053,55.851 19.162,55.851 
+			11.96,40.184 17.688,35.134 22.188,46.665 22.297,47.312 22.404,46.935 26.274,30.083 		"/>
+		<path fill="#266C31" d="M27.417,56.275H18.89l-7.447-16.201l6.421-5.66l4.395,11.261l3.626-15.791l6.759-7.745L27.417,56.275z
+			 M19.434,55.426h7.254L31.359,24.9l-4.695,5.382l-3.958,17.146l-0.516,1.813l-0.413-2.463l-4.265-10.924l-5.035,4.438
+			L19.434,55.426z"/>
+	</g>
+</g>
+</svg>

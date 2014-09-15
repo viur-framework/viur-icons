@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="64px" height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+<g>
+	<g>
+		<g>
+			<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="20.7197" y1="1.0078" x2="45.2774" y2="68.4794">
+				<stop  offset="0" style="stop-color:#FFFFFF"/>
+				<stop  offset="1" style="stop-color:#EEEEEE"/>
+			</linearGradient>
+			<polygon fill="url(#SVGID_1_)" points="58.602,0.371 22.465,0.371 5.398,17.379 5.398,63.629 58.602,63.629 			"/>
+			<path fill="#9D9D9C" d="M58.972,64H5.028V17.226L22.312,0h36.66V64z M5.77,63.259H58.23V0.741H22.619L5.77,17.533V63.259z"/>
+		</g>
+		<g>
+			<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="12.1973" y1="4.1094" x2="17.6632" y2="19.127">
+				<stop  offset="0" style="stop-color:#FFFFFF"/>
+				<stop  offset="1" style="stop-color:#EEEEEE"/>
+			</linearGradient>
+			<polygon fill="url(#SVGID_2_)" points="22.465,0.371 5.398,17.379 22.465,17.379 			"/>
+			<path fill="#9D9D9C" d="M22.465,17.75H5.398c-0.149,0-0.285-0.091-0.343-0.229c-0.057-0.14-0.024-0.299,0.081-0.404L22.204,0.108
+				c0.104-0.106,0.266-0.137,0.403-0.08c0.139,0.058,0.229,0.192,0.229,0.343v17.008C22.836,17.584,22.67,17.75,22.465,17.75z
+				 M6.295,17.009h15.8V1.264L6.295,17.009z"/>
+		</g>
+	</g>
+	<g>
+		
+			<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="-279.0225" y1="-736.5737" x2="-245.709" y2="-736.5737" gradientTransform="matrix(0 1 -1 0 -699.0371 301.0703)">
+			<stop  offset="0" style="stop-color:#42A03F"/>
+			<stop  offset="1" style="stop-color:#348342"/>
+		</linearGradient>
+		<polygon fill-rule="evenodd" clip-rule="evenodd" fill="url(#SVGID_3_)" points="53.259,38.705 38.524,22.048 21.814,22.048 
+			38.266,38.705 21.814,55.361 38.524,55.361 		"/>
+		<path fill="#25632C" d="M38.747,55.855H20.632l16.938-17.15L20.632,21.554h18.115l0.146,0.167l15.025,16.984L38.747,55.855z
+			 M22.997,54.867h15.304l14.298-16.162L38.301,22.542H22.997L38.96,38.705L22.997,54.867z"/>
+	</g>
+</g>
+</svg>
