@@ -1,0 +1,644 @@
+{
+  ".gitignore": {
+    "dirname": "./icons/",
+    "ext": "",
+    "filename": ".gitignore",
+    "path": "./icons/.gitignore"
+  },
+  "README": {
+    "dirname": "./icons/",
+    "ext": ".md",
+    "filename": "README.md",
+    "path": "./icons/README.md"
+  },
+  "add": {
+    "dirname": "./icons/",
+    "ext": ".svg",
+    "filename": "add.svg",
+    "path": "./icons/add.svg"
+  },
+  "add-box": {
+    "dirname": "./icons/",
+    "ext": ".svg",
+    "filename": "add-box.svg",
+    "path": "./icons/add-box.svg"
+  },
+  "add-file": {
+    "dirname": "./icons/",
+    "ext": ".svg",
+    "filename": "add-file.svg",
+    "path": "./icons/add-file.svg"
+  },
+  "add-folder": {
+    "dirname": "./icons/",
+    "ext": ".svg",
+    "filename": "add-folder.svg",
+    "path": "./icons/add-folder.svg"
+  },
+  "archive": {
+    "dirname": "./icons/",
+    "ext": ".svg",
+    "filename": "archive.svg",
+    "path": "./icons/archive.svg"
+  },
+  "arrow-down": {
+    "dirname": "./icons/",
+    "ext": ".svg",
+    "filename": "arrow-down.svg",
+    "path": "./icons/arrow-down.svg"
+  },
+  "arrow-left": {
+    "dirname": "./icons/",
+    "ext": ".svg",
+    "filename": "arrow-left.svg",
+    "path": "./icons/arrow-left.svg"
+  },
+  "arrow-right": {
+    "dirname": "./icons/",
+    "ext": ".svg",
+    "filename": "arrow-right.svg",
+    "path": "./icons/arrow-right.svg"
+  },
+  "arrow-up": {
+    "dirname": "./icons/",
+    "ext": ".svg",
+    "filename": "arrow-up.svg",
+    "path": "./icons/arrow-up.svg"
+  },
+  "audio": {
+    "dirname": "./icons/",
+    "ext": ".svg",
+    "filename": "audio.svg",
+    "path": "./icons/audio.svg"
+  },
+  "audio-file": {
+    "dirname": "./icons/",
+    "ext": ".svg",
+    "filename": "audio-file.svg",
+    "path": "./icons/audio-file.svg"
+  },
+  "billing": {
+    "dirname": "./icons/",
+    "ext": ".svg",
+    "filename": "billing.svg",
+    "path": "./icons/billing.svg"
+  },
+  "billing-file": {
+    "dirname": "./icons/",
+    "ext": ".svg",
+    "filename": "billing-file.svg",
+    "path": "./icons/billing-file.svg"
+  },
+  "bookmark-add": {
+    "dirname": "./icons/",
+    "ext": ".svg",
+    "filename": "bookmark-add.svg",
+    "path": "./icons/bookmark-add.svg"
+  },
+  "bookmark-delete": {
+    "dirname": "./icons/",
+    "ext": ".svg",
+    "filename": "bookmark-delete.svg",
+    "path": "./icons/bookmark-delete.svg"
+  },
+  "box": {
+    "dirname": "./icons/",
+    "ext": ".svg",
+    "filename": "box.svg",
+    "path": "./icons/box.svg"
+  },
+  "calendar": {
+    "dirname": "./icons/",
+    "ext": ".svg",
+    "filename": "calendar.svg",
+    "path": "./icons/calendar.svg"
+  },
+  "cancel": {
+    "dirname": "./icons/",
+    "ext": ".svg",
+    "filename": "cancel.svg",
+    "path": "./icons/cancel.svg"
+  },
+  "categories-box": {
+    "dirname": "./icons/",
+    "ext": ".svg",
+    "filename": "categories-box.svg",
+    "path": "./icons/categories-box.svg"
+  },
+  "chat": {
+    "dirname": "./icons/",
+    "ext": ".svg",
+    "filename": "chat.svg",
+    "path": "./icons/chat.svg"
+  },
+  "clone": {
+    "dirname": "./icons/",
+    "ext": ".svg",
+    "filename": "clone.svg",
+    "path": "./icons/clone.svg"
+  },
+  "cut": {
+    "dirname": "./icons/",
+    "ext": ".svg",
+    "filename": "cut.svg",
+    "path": "./icons/cut.svg"
+  },
+  "dashboard": {
+    "dirname": "./icons/",
+    "ext": ".svg",
+    "filename": "dashboard.svg",
+    "path": "./icons/dashboard.svg"
+  },
+  "delete": {
+    "dirname": "./icons/",
+    "ext": ".svg",
+    "filename": "delete.svg",
+    "path": "./icons/delete.svg"
+  },
+  "delivery": {
+    "dirname": "./icons/",
+    "ext": ".svg",
+    "filename": "delivery.svg",
+    "path": "./icons/delivery.svg"
+  },
+  "delivery-note": {
+    "dirname": "./icons/",
+    "ext": ".svg",
+    "filename": "delivery-note.svg",
+    "path": "./icons/delivery-note.svg"
+  },
+  "download": {
+    "dirname": "./icons/",
+    "ext": ".svg",
+    "filename": "download.svg",
+    "path": "./icons/download.svg"
+  },
+  "download-file": {
+    "dirname": "./icons/",
+    "ext": ".svg",
+    "filename": "download-file.svg",
+    "path": "./icons/download-file.svg"
+  },
+  "edit": {
+    "dirname": "./icons/",
+    "ext": ".svg",
+    "filename": "edit.svg",
+    "path": "./icons/edit.svg"
+  },
+  "edit-box": {
+    "dirname": "./icons/",
+    "ext": ".svg",
+    "filename": "edit-box.svg",
+    "path": "./icons/edit-box.svg"
+  },
+  "error": {
+    "dirname": "./icons/",
+    "ext": ".svg",
+    "filename": "error.svg",
+    "path": "./icons/error.svg"
+  },
+  "error-file": {
+    "dirname": "./icons/",
+    "ext": ".svg",
+    "filename": "error-file.svg",
+    "path": "./icons/error-file.svg"
+  },
+  "file": {
+    "dirname": "./icons/",
+    "ext": ".svg",
+    "filename": "file.svg",
+    "path": "./icons/file.svg"
+  },
+  "filesystem": {
+    "dirname": "./icons/",
+    "ext": ".svg",
+    "filename": "filesystem.svg",
+    "path": "./icons/filesystem.svg"
+  },
+  "flag": {
+    "dirname": "./icons/",
+    "ext": ".svg",
+    "filename": "flag.svg",
+    "path": "./icons/flag.svg"
+  },
+  "folder": {
+    "dirname": "./icons/",
+    "ext": ".svg",
+    "filename": "folder.svg",
+    "path": "./icons/folder.svg"
+  },
+  "folder-back": {
+    "dirname": "./icons/",
+    "ext": ".svg",
+    "filename": "folder-back.svg",
+    "path": "./icons/folder-back.svg"
+  },
+  "heart": {
+    "dirname": "./icons/",
+    "ext": ".svg",
+    "filename": "heart.svg",
+    "path": "./icons/heart.svg"
+  },
+  "hierarchy": {
+    "dirname": "./icons/",
+    "ext": ".svg",
+    "filename": "hierarchy.svg",
+    "path": "./icons/hierarchy.svg"
+  },
+  "home": {
+    "dirname": "./icons/",
+    "ext": ".svg",
+    "filename": "home.svg",
+    "path": "./icons/home.svg"
+  },
+  "image": {
+    "dirname": "./icons/",
+    "ext": ".svg",
+    "filename": "image.svg",
+    "path": "./icons/image.svg"
+  },
+  "image-file": {
+    "dirname": "./icons/",
+    "ext": ".svg",
+    "filename": "image-file.svg",
+    "path": "./icons/image-file.svg"
+  },
+  "inbox": {
+    "dirname": "./icons/",
+    "ext": ".svg",
+    "filename": "inbox.svg",
+    "path": "./icons/inbox.svg"
+  },
+  "interface": {
+    "dirname": "./icons/",
+    "ext": ".svg",
+    "filename": "interface.svg",
+    "path": "./icons/interface.svg"
+  },
+  "kiosk": {
+    "dirname": "./icons/",
+    "ext": ".svg",
+    "filename": "kiosk.svg",
+    "path": "./icons/kiosk.svg"
+  },
+  "labels": {
+    "dirname": "./icons/",
+    "ext": ".svg",
+    "filename": "labels.svg",
+    "path": "./icons/labels.svg"
+  },
+  "link": {
+    "dirname": "./icons/",
+    "ext": ".svg",
+    "filename": "link.svg",
+    "path": "./icons/link.svg"
+  },
+  "list": {
+    "dirname": "./icons/",
+    "ext": ".svg",
+    "filename": "list.svg",
+    "path": "./icons/list.svg"
+  },
+  "list-item": {
+    "dirname": "./icons/",
+    "ext": ".svg",
+    "filename": "list-item.svg",
+    "path": "./icons/list-item.svg"
+  },
+  "loader": {
+    "dirname": "./icons/",
+    "ext": ".svg",
+    "filename": "loader.svg",
+    "path": "./icons/loader.svg"
+  },
+  "locations": {
+    "dirname": "./icons/",
+    "ext": ".svg",
+    "filename": "locations.svg",
+    "path": "./icons/locations.svg"
+  },
+  "lock-closed": {
+    "dirname": "./icons/",
+    "ext": ".svg",
+    "filename": "lock-closed.svg",
+    "path": "./icons/lock-closed.svg"
+  },
+  "lock-open": {
+    "dirname": "./icons/",
+    "ext": ".svg",
+    "filename": "lock-open.svg",
+    "path": "./icons/lock-open.svg"
+  },
+  "logbook": {
+    "dirname": "./icons/",
+    "ext": ".svg",
+    "filename": "logbook.svg",
+    "path": "./icons/logbook.svg"
+  },
+  "login": {
+    "dirname": "./icons/",
+    "ext": ".svg",
+    "filename": "login.svg",
+    "path": "./icons/login.svg"
+  },
+  "logout": {
+    "dirname": "./icons/",
+    "ext": ".svg",
+    "filename": "logout.svg",
+    "path": "./icons/logout.svg"
+  },
+  "menu": {
+    "dirname": "./icons/",
+    "ext": ".svg",
+    "filename": "menu.svg",
+    "path": "./icons/menu.svg"
+  },
+  "message": {
+    "dirname": "./icons/",
+    "ext": ".svg",
+    "filename": "message.svg",
+    "path": "./icons/message.svg"
+  },
+  "message-news": {
+    "dirname": "./icons/",
+    "ext": ".svg",
+    "filename": "message-news.svg",
+    "path": "./icons/message-news.svg"
+  },
+  "message-send": {
+    "dirname": "./icons/",
+    "ext": ".svg",
+    "filename": "message-send.svg",
+    "path": "./icons/message-send.svg"
+  },
+  "newsletter": {
+    "dirname": "./icons/",
+    "ext": ".svg",
+    "filename": "newsletter.svg",
+    "path": "./icons/newsletter.svg"
+  },
+  "newsletter-open": {
+    "dirname": "./icons/",
+    "ext": ".svg",
+    "filename": "newsletter-open.svg",
+    "path": "./icons/newsletter-open.svg"
+  },
+  "notifications": {
+    "dirname": "./icons/",
+    "ext": ".svg",
+    "filename": "notifications.svg",
+    "path": "./icons/notifications.svg"
+  },
+  "order": {
+    "dirname": "./icons/",
+    "ext": ".svg",
+    "filename": "order.svg",
+    "path": "./icons/order.svg"
+  },
+  "order-cancelled": {
+    "dirname": "./icons/",
+    "ext": ".svg",
+    "filename": "order-cancelled.svg",
+    "path": "./icons/order-cancelled.svg"
+  },
+  "order-coupon": {
+    "dirname": "./icons/",
+    "ext": ".svg",
+    "filename": "order-coupon.svg",
+    "path": "./icons/order-coupon.svg"
+  },
+  "order-error": {
+    "dirname": "./icons/",
+    "ext": ".svg",
+    "filename": "order-error.svg",
+    "path": "./icons/order-error.svg"
+  },
+  "order-return": {
+    "dirname": "./icons/",
+    "ext": ".svg",
+    "filename": "order-return.svg",
+    "path": "./icons/order-return.svg"
+  },
+  "order-shipped": {
+    "dirname": "./icons/",
+    "ext": ".svg",
+    "filename": "order-shipped.svg",
+    "path": "./icons/order-shipped.svg"
+  },
+  "payment-euro": {
+    "dirname": "./icons/",
+    "ext": ".svg",
+    "filename": "payment-euro.svg",
+    "path": "./icons/payment-euro.svg"
+  },
+  "payment-missing": {
+    "dirname": "./icons/",
+    "ext": ".svg",
+    "filename": "payment-missing.svg",
+    "path": "./icons/payment-missing.svg"
+  },
+  "payment-received": {
+    "dirname": "./icons/",
+    "ext": ".svg",
+    "filename": "payment-received.svg",
+    "path": "./icons/payment-received.svg"
+  },
+  "pdf-file": {
+    "dirname": "./icons/",
+    "ext": ".svg",
+    "filename": "pdf-file.svg",
+    "path": "./icons/pdf-file.svg"
+  },
+  "photo": {
+    "dirname": "./icons/",
+    "ext": ".svg",
+    "filename": "photo.svg",
+    "path": "./icons/photo.svg"
+  },
+  "pin": {
+    "dirname": "./icons/",
+    "ext": ".svg",
+    "filename": "pin.svg",
+    "path": "./icons/pin.svg"
+  },
+  "press": {
+    "dirname": "./icons/",
+    "ext": ".svg",
+    "filename": "press.svg",
+    "path": "./icons/press.svg"
+  },
+  "preview": {
+    "dirname": "./icons/",
+    "ext": ".svg",
+    "filename": "preview.svg",
+    "path": "./icons/preview.svg"
+  },
+  "qr-code": {
+    "dirname": "./icons/",
+    "ext": ".svg",
+    "filename": "qr-code.svg",
+    "path": "./icons/qr-code.svg"
+  },
+  "redo": {
+    "dirname": "./icons/",
+    "ext": ".svg",
+    "filename": "redo.svg",
+    "path": "./icons/redo.svg"
+  },
+  "reload": {
+    "dirname": "./icons/",
+    "ext": ".svg",
+    "filename": "reload.svg",
+    "path": "./icons/reload.svg"
+  },
+  "remove": {
+    "dirname": "./icons/",
+    "ext": ".svg",
+    "filename": "remove.svg",
+    "path": "./icons/remove.svg"
+  },
+  "remove-file": {
+    "dirname": "./icons/",
+    "ext": ".svg",
+    "filename": "remove-file.svg",
+    "path": "./icons/remove-file.svg"
+  },
+  "rename": {
+    "dirname": "./icons/",
+    "ext": ".svg",
+    "filename": "rename.svg",
+    "path": "./icons/rename.svg"
+  },
+  "ribbon": {
+    "dirname": "./icons/",
+    "ext": ".svg",
+    "filename": "ribbon.svg",
+    "path": "./icons/ribbon.svg"
+  },
+  "save": {
+    "dirname": "./icons/",
+    "ext": ".svg",
+    "filename": "save.svg",
+    "path": "./icons/save.svg"
+  },
+  "save-file": {
+    "dirname": "./icons/",
+    "ext": ".svg",
+    "filename": "save-file.svg",
+    "path": "./icons/save-file.svg"
+  },
+  "scale": {
+    "dirname": "./icons/",
+    "ext": ".svg",
+    "filename": "scale.svg",
+    "path": "./icons/scale.svg"
+  },
+  "search": {
+    "dirname": "./icons/",
+    "ext": ".svg",
+    "filename": "search.svg",
+    "path": "./icons/search.svg"
+  },
+  "select-add": {
+    "dirname": "./icons/",
+    "ext": ".svg",
+    "filename": "select-add.svg",
+    "path": "./icons/select-add.svg"
+  },
+  "select-invert": {
+    "dirname": "./icons/",
+    "ext": ".svg",
+    "filename": "select-invert.svg",
+    "path": "./icons/select-invert.svg"
+  },
+  "select-remove": {
+    "dirname": "./icons/",
+    "ext": ".svg",
+    "filename": "select-remove.svg",
+    "path": "./icons/select-remove.svg"
+  },
+  "settings": {
+    "dirname": "./icons/",
+    "ext": ".svg",
+    "filename": "settings.svg",
+    "path": "./icons/settings.svg"
+  },
+  "statistics": {
+    "dirname": "./icons/",
+    "ext": ".svg",
+    "filename": "statistics.svg",
+    "path": "./icons/statistics.svg"
+  },
+  "table": {
+    "dirname": "./icons/",
+    "ext": ".svg",
+    "filename": "table.svg",
+    "path": "./icons/table.svg"
+  },
+  "text-file": {
+    "dirname": "./icons/",
+    "ext": ".svg",
+    "filename": "text-file.svg",
+    "path": "./icons/text-file.svg"
+  },
+  "time": {
+    "dirname": "./icons/",
+    "ext": ".svg",
+    "filename": "time.svg",
+    "path": "./icons/time.svg"
+  },
+  "undo": {
+    "dirname": "./icons/",
+    "ext": ".svg",
+    "filename": "undo.svg",
+    "path": "./icons/undo.svg"
+  },
+  "upload": {
+    "dirname": "./icons/",
+    "ext": ".svg",
+    "filename": "upload.svg",
+    "path": "./icons/upload.svg"
+  },
+  "upload-file": {
+    "dirname": "./icons/",
+    "ext": ".svg",
+    "filename": "upload-file.svg",
+    "path": "./icons/upload-file.svg"
+  },
+  "user-accounts": {
+    "dirname": "./icons/",
+    "ext": ".svg",
+    "filename": "user-accounts.svg",
+    "path": "./icons/user-accounts.svg"
+  },
+  "user-contacts": {
+    "dirname": "./icons/",
+    "ext": ".svg",
+    "filename": "user-contacts.svg",
+    "path": "./icons/user-contacts.svg"
+  },
+  "users": {
+    "dirname": "./icons/",
+    "ext": ".svg",
+    "filename": "users.svg",
+    "path": "./icons/users.svg"
+  },
+  "video": {
+    "dirname": "./icons/",
+    "ext": ".svg",
+    "filename": "video.svg",
+    "path": "./icons/video.svg"
+  },
+  "video-file": {
+    "dirname": "./icons/",
+    "ext": ".svg",
+    "filename": "video-file.svg",
+    "path": "./icons/video-file.svg"
+  },
+  "zip-file": {
+    "dirname": "./icons/",
+    "ext": ".svg",
+    "filename": "zip-file.svg",
+    "path": "./icons/zip-file.svg"
+  }
+}

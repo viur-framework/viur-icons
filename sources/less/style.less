@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+
+@import "ignite/ignite";
+@import "foundation/appconf";
+
+.headline {
+  font-size: 2em;
+  margin: .5em 0;
+}
+
+.search {
+  display: flex;
+
+  &-input {
+    flex: 0 0 100%;
+
+  }
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -5px;
+  &-item {
+    display: flex;
+    flex: 1 0 12%;
+    flex-direction: column;
+    padding: 5px;
+    border-radius: @defaultBorderRadius;
+    cursor: pointer;
+
+    &-icon {
+      flex: 0 1 100%;
+      &--dark {background-color: #000;}
+      &--light {background-color: #fff;}
+    }
+    &-name {
+      background: lighten(@mainColor, 50%);
+      flex: 0 1 100%;
+      word-break: break-word;
+      text-align: center;
+    }
+  }
+}

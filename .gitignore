@@ -1,0 +1,16 @@
+*.pyc
+*.log
+*.bak
+*.bat
+
+.idea
+
+node_modules
+
+Thumbs.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+.DS_Store
+._*
+.Trashes
+.Trash-*

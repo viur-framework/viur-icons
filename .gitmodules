@@ -1,0 +1,6 @@
+[submodule "icons"]
+	path = icons
+	url = git@github.com:viur-framework/icons.git
+[submodule "sources/less/ignite"]
+	path = sources/less/ignite
+	url = git@github.com:viur-framework/ignite.git
