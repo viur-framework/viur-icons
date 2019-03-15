@@ -1,7 +1,7 @@
 {
-  "name": "schulte",
+  "name": "icons",
   "version": "1.0.0",
-  "description": "Gulp Tasks for Schulte",
+  "description": "Gulp Tasks for ViUR icons",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,12 +9,8 @@
   "author": "Mausbrand Infosys",
   "license": "ISC",
   "devDependencies": {
-    "@babel/core": "^7.3.4",
-    "@babel/preset-env": "^7.3.4",
-    "@babel/preset-react": "^7.0.0",
     "babel-core": "^6.26.0",
     "babel-env": "^2.4.1",
-    "babel-polyfill": "^6.26.0",
     "del": "^4.0.0",
     "gulp": "^4.0.0",
     "gulp-autoprefixer": "^6.0.0",
@@ -26,17 +22,14 @@
     "gulp-imagemin": "^5.0.3",
     "gulp-join-media-queries": "^1.0.0",
     "gulp-less": "^4.0.1",
-    "gulp-load-plugins": "^1.5.0",
     "gulp-minifier": "^1.2.2",
     "gulp-postcss": "^8.0.0",
     "gulp-rename": "^1.2.2",
     "gulp-replace-task": "^0.11.0",
     "gulp-rollup": "^2.15.0",
     "gulp-sourcemaps": "^2.6.5",
-    "gulp-uglify": "^3.0.1",
     "postcss-discard-comments": "^4.0.2",
     "postcss-focus": "^2.0.0",
-    "postcss-zindex": "^4.0.1",
-    "semver": "^5.6.0"
+    "postcss-zindex": "^4.0.1"
   }
 }
