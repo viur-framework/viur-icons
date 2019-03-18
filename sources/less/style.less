@@ -3,6 +3,22 @@
 
 @import "ignite/ignite";
 @import "foundation/appconf";
+@import "objects/popup";
+@import "objects/tooltip";
+
+.btn {
+  .btn(@btnBorderRadius: 2px);
+  .colorizeBtn(@mainColor)
+}
+
+.wrap {
+  transition: .3s ease all;
+}
+.wrap--blur {
+  filter: blur(3px);
+  //pointer-events: none;
+  user-select: none;
+}
 
 .headline {
   font-size: 2em;
@@ -24,16 +40,28 @@
   margin: -5px;
   &-item {
     display: flex;
-    flex: 1 0 12%;
+    flex: 0 0 calc(100% / 3);
     flex-direction: column;
     padding: 5px;
     border-radius: @defaultBorderRadius;
     cursor: pointer;
+    height: fit-content;
+
+    .mq-min(@breakSmall, {flex: 0 0 calc(100% / 5);});
+    .mq-min(@breakMedium, {flex: 0 0 calc(100% / 8);});
 
     &-icon {
       flex: 0 1 100%;
-      &--dark {background-color: #000;}
-      &--light {background-color: #fff;}
+      height: 100%;
+      width: 100%;
+
+      [data-bg="black"] & {background-color: #000;}
+      [data-bg="white"] & {background-color: #fff;}
+      [data-bg="transparent"] & {background: url("../images/pattern-transparent.png");}
+
+      [data-fill="black"] & {fill: #000;}
+      [data-fill="white"] & {fill: #fff;}
+      [data-fill="red"] & {fill: @mainColor;}
     }
     &-name {
       background: lighten(@mainColor, 50%);

@@ -30,8 +30,14 @@ var main = function () {
 			// at this Point Page is ready
 			console.debug('App loaded');
 
+			this.timeout = undefined;
+			this.$wrap = $('.wrap');
+			this.$popup = $('.popup');
+			this.$popupOverlay = $('.popup-overlay');
+
 			this.initSearch();
 			this.initFilters();
+			this.initPopup();
 		}
 	}, {
 		key: 'initSearch',
@@ -49,13 +55,61 @@ var main = function () {
 	}, {
 		key: 'initFilters',
 		value: function initFilters() {
-			$(document).on('click', '.js-bg-dark', function () {
-				$('.list-item-icon').addClass('list-item-icon--dark');
-				$('.list-item-icon').removeClass('list-item-icon--light');
+			$(document).on('click', '.js-bg-options', function (e) {
+				$('.js-bg-options').removeClass('is-active');
+				var val = $(e.currentTarget).blur().addClass('is-active').data('value');
+
+				$('.js-icon-list').attr('data-bg', val);
 			});
-			$(document).on('click', '.js-bg-light', function () {
-				$('.list-item-icon').addClass('list-item-icon--light');
-				$('.list-item-icon').removeClass('list-item-icon--dark');
+			$(document).on('click', '.js-fill-options', function (e) {
+				$('.js-fill-options').removeClass('is-active');
+				var val = $(e.currentTarget).blur().addClass('is-active').data('value');
+
+				$('.js-icon-list').attr('data-fill', val);
+			});
+		}
+	}, {
+		key: 'initPopup',
+		value: function initPopup() {
+			var _this2 = this;
+
+			$(document).on('click', '.list-item', function (e) {
+				var $item = $(e.currentTarget);
+
+				var $svg = $item.find('svg').clone().removeAttr('class'); // cleaned svg
+				var svgCode = $svg[0].outerHTML;
+				_this2.$popup.find('.popup-title').text($item.data('name'));
+				_this2.$popup.find('.popup-icon').replaceWith($svg.addClass('icon popup-icon'));
+				_this2.$popup.find('.popup-icon-code').text(svgCode);
+
+				_this2.$wrap.addClass('wrap--blur');
+				_this2.$popup.addClass('is-active');
+				_this2.$popupOverlay.addClass('is-active');
+			});
+
+			$(document).on('click', '.popup-overlay, .popup-close', function (e) {
+				_this2.$wrap.removeClass('wrap--blur');
+				_this2.$popup.removeClass('is-active');
+				_this2.$popupOverlay.removeClass('is-active');
+			});
+
+			$(document).on('click', '.js-copy-svg', function (e) {
+				var $code = $('.popup-icon-code');
+				var $btn = $(e.currentTarget);
+				var selection = window.getSelection();
+				var range = document.createRange();
+				range.setStartBefore($code.first()[0]);
+				range.setEndAfter($code.last()[0]);
+				selection.removeAllRanges();
+				selection.addRange(range);
+
+				document.execCommand('copy');
+				$btn.addClass('tip');
+
+				clearTimeout(_this2.timeout);
+				_this2.timeout = setTimeout(function () {
+					$btn.removeClass('tip');
+				}, 2000);
 			});
 		}
 	}]);

@@ -1,16 +1,4 @@
 {
-  ".gitignore": {
-    "dirname": "./icons/",
-    "ext": "",
-    "filename": ".gitignore",
-    "path": "./icons/.gitignore"
-  },
-  "README": {
-    "dirname": "./icons/",
-    "ext": ".md",
-    "filename": "README.md",
-    "path": "./icons/README.md"
-  },
   "add": {
     "dirname": "./icons/",
     "ext": ".svg",

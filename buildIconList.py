@@ -44,12 +44,16 @@ class BuildIconList(object):
 		target = open(file, "w")
 
 		for name, meta in icons.items():
+			with open(meta.get("path"), 'rb') as f:
+				svg = f.read().decode('utf-8')
+				svg = svg.replace("<svg ", """<svg class="icon list-item-icon" """)
+
 			target.write("""
 <div class="list-item" data-name="{name}">
-	<img src="{path}" class="list-item-icon">
+	{svg}
 	<span class="list-item-name">{name}</span>
 </div>
-""".format(name=name, path=meta.get("path"))
+""".format(name=name, path=meta.get("path"), svg=svg)
 			)
 
 		target.close()
@@ -58,7 +62,7 @@ class BuildIconList(object):
 if __name__ == "__main__":
 	iconlist = BuildIconList(
 		folder="./icons/",
-		ignoreFiles=[".git"]
+		ignoreFiles=[".git", ".gitignore", "README.md"]
 	)
 	icons = iconlist.collect()
 	iconlist.write("icons.json", icons)
