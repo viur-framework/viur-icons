@@ -38,17 +38,22 @@
   display: flex;
   flex-wrap: wrap;
   margin: -5px;
+
   &-item {
-    display: flex;
+    display: none;
     flex: 0 0 calc(100% / 3);
     flex-direction: column;
     padding: 5px;
-    border-radius: @defaultBorderRadius;
+    border-radius: 22px; // border-radius must be so big due to the padding
+    overflow: hidden;
     cursor: pointer;
     height: fit-content;
 
+    &.is-active {display: flex;}
+
     .mq-min(@breakSmall, {flex: 0 0 calc(100% / 5);});
-    .mq-min(@breakMedium, {flex: 0 0 calc(100% / 8);});
+    .mq-min(@breakMedium, {flex: 0 0 calc(100% / 7);});
+    .mq-min(@breakLarge, {flex: 0 0 calc(100% / 8);});
 
     &-icon {
       flex: 0 1 100%;
@@ -68,6 +73,31 @@
       flex: 0 1 100%;
       word-break: break-word;
       text-align: center;
+      font-size: .9em;
+      padding: 5px;
     }
   }
+}
+
+.footer {
+  display: flex;
+  font-size: .85em;
+  color: lighten(@textColor, 20%);
+  margin-top: 2em;
+  padding-bottom: 20px;
+  flex-direction: column;
+
+  .mq-min(@breakMedium, {flex-direction: row});
+
+  a {
+    color: inherit;
+  }
+
+  &-item {
+    flex: 0 0 auto;
+    &--copyright {
+      margin-left: auto;
+    }
+  }
+
 }

@@ -29,10 +29,10 @@ class main {
 		let $searchInput = $('.js-search-input');
 		$(document).on('keyup', $searchInput, (e) => {
 			if ($searchInput.val() == '') {
-				$('.list-item').show();
+				$('.list-item').addClass('is-active');
 			} else {
-				$('.list-item').hide();
-				$('.list-item[data-name*="' + $searchInput.val() + '"]').show();
+				$('.list-item').removeClass('is-active');
+				$('.list-item[data-name*="' + $searchInput.val() + '"]').addClass('is-active');
 			}
 		});
 	}
