@@ -1,10 +1,12 @@
+#!/usr/bin/python3
 # -*- coding: utf-8 -*-
 
 __author__ = "Sven Eberth"
 __email__ = "se@mausbrand.de"
 
-import os
 import json
+import os
+from collections import OrderedDict
 
 
 class BuildIconList(object):
@@ -43,18 +45,19 @@ class BuildIconList(object):
 	def writeHTML(self, file, icons):
 		target = open(file, "w")
 
+		icons = OrderedDict(sorted(icons.items()))
 		for name, meta in icons.items():
 			with open(meta.get("path"), 'rb') as f:
 				svg = f.read().decode('utf-8')
 				svg = svg.replace("<svg ", """<svg class="icon list-item-icon" """)
 
 			target.write("""
-<div class="list-item" data-name="{name}">
+<div class="list-item is-active" data-name="{name}">
 	{svg}
 	<span class="list-item-name">{name}</span>
 </div>
 """.format(name=name, path=meta.get("path"), svg=svg)
-			)
+						 )
 
 		target.close()
 

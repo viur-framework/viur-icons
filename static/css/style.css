@@ -1571,7 +1571,8 @@ ol.is-list {
 .icon circle,
 .icon rect,
 .icon ellipse,
-.icon polygon {
+.icon polygon,
+.icon polyline {
 	fill: inherit;
 	stroke: none;
 }
@@ -2242,6 +2243,10 @@ ol.is-list {
 
 [data-fill="red"] .list-item-icon {
 	fill: #d00f1c;
+}
+
+[data-fill="grey"] .list-item-icon {
+	fill: #999;
 }
 
 .list-item-name {
