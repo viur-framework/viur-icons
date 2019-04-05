@@ -92,6 +92,10 @@
 
   a {
     color: inherit;
+    &:hover,
+    &:active {
+      color: darken(@mainColor, 10%);
+    }
   }
 
   &-item {
@@ -100,5 +104,4 @@
       margin-left: auto;
     }
   }
-
 }
