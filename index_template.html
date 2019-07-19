@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+
+	<meta name="twitter:title" content="ViUR Icons">
+	<meta property="og:title" content="ViUR Icons">
+	<title>ViUR Icons</title>
+
+	<meta name="description" lang="en" content="ViUR Icons Documentations">
+	<meta name="twitter:description" content="ViUR Icons Documentations">
+	<meta name="DC.Description" content="ViUR Icons Documentations">
+	<meta property="og:description" content="ViUR Icons Documentations">
+	<meta name="keywords" lang="en" content="{{ metaKeywords }}">
+
+	<meta name="author" content="Mausbrand Informationssysteme GmbH">
+
+	<meta name="robots" content="index, follow">
+
+	<meta property="og:type" content="website">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+	<!-- <link rel="shortcut icon" href="/static/meta/favicon.png" type="image/png"> -->
+
+	<!-- css -->
+	<link href="./static/css/style.min.css" rel="stylesheet">
+</head>
+<body>
+
+<article class="wrap">
+	<div class="bind flex">
+
+		<article class="content">
+			<section class="section intro">
+				<h1 class="headline">
+					ViUR Icons
+					<a class="github-button" href="https://github.com/viur-framework/icons"
+					   data-size="large" data-show-count="true"
+					   aria-label="Star viur-framework/icons on GitHub">Star</a>
+					<a class="github-button" href="https://github.com/viur-framework/icons/archive/master.zip"
+					   data-size="large" aria-label="Download viur-framework/icons on GitHub">Download</a>
+				</h1>
+				<p>
+					ViUR Icons pack. We are trying to improve the user experience of all ViUR applications across
+					different plattforms and purposes. This icon repository is meant to help to deliver a similar look
+					and feel for modules, buttons and more.
+				</p>
+			</section>
+
+			<section class="section search">
+				<input class="input input--large search-input js-search-input" type="text" autocomplete="off"
+					   placeholder="Search Icon ...">
+			</section>
+
+			<section class="section section-filter">
+				<nav class="bar">
+					<div class="bar-group bar-group--left">
+						<a href="#" class="bar-link js-fill-options btn btn--small" data-value="black">Black Fill</a>
+						<a href="#" class="bar-link js-fill-options btn btn--small" data-value="white">White Fill</a>
+						<a href="#" class="bar-link js-fill-options btn btn--small" data-value="red">Red Fill</a>
+						<a href="#" class="bar-link js-fill-options btn btn--small is-active" data-value="grey">Grey
+							Fill</a>
+					</div>
+					<div class="bar-group bar-group--right">
+						<a href="#" class="bar-link js-bg-options btn btn--small" data-value="black">Black
+							Background</a>
+						<a href="#" class="bar-link js-bg-options btn btn--small is-active" data-value="white">White
+							Background</a>
+						<a href="#" class="bar-link js-bg-options btn btn--small" data-value="transparent">Transparent
+							BG</a>
+					</div>
+				</nav>
+			</section>
+
+
+			<section class="section section-icon">
+				<div class="list js-icon-list" data-bg="white" data-fill="grey">
+
+					{{icons}}
+
+				</div>
+
+			</section>
+
+			<footer class="footer">
+				<div class="footer-item footer-item--imprint">
+					<a href="https://www.mausbrand.de/en/site/impressum">Imprint</a>
+				</div>
+				<div class="footer-item footer-item--copyright">
+					Copyleft ♥ 2019 by <a href="http://www.mausbrand.de/en">Mausbrand Informationssysteme GmbH,
+					Dortmund</a>
+				</div>
+			</footer>
+
+		</article>
+
+	</div>
+</article>
+
+<div class="popup-overlay"></div>
+<div class="popup popup--center">
+	<a class="popup-close">&times;</a>
+
+	<h3 class="popup-title subline"></h3>
+
+	<svg class="icon popup-icon"></svg>
+	<pre class="popup-icon-code"></pre>
+
+	<nav class="bar">
+		<a href="./icons/zip-file.svg" download class="bar-link btn btn--small">Download SVG</a>
+		<a href="#" class="bar-link btn btn--small js-copy-svg tip-n tip-vSticky" aria-label="Copied to clipboard">Copy
+			SVG</a>
+	</nav>
+</div>
+
+<script src="./static/js/jquery.min.js"></script>
+<script src="./static/js/app.js"></script>
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+
+</body>
+</html>
