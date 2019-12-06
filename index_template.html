@@ -76,7 +76,7 @@
 			<section class="section section-icon">
 				<div class="list js-icon-list" data-bg="white" data-fill="grey">
 
-					{{icons}}
+					{{ icons }}
 
 				</div>
 
@@ -107,9 +107,10 @@
 	<pre class="popup-icon-code"></pre>
 
 	<nav class="bar">
-		<a href="./icons/zip-file.svg" download class="bar-link btn btn--small">Download SVG</a>
-		<a href="#" class="bar-link btn btn--small js-copy-svg tip-n tip-vSticky" aria-label="Copied to clipboard">Copy
-			SVG</a>
+		<a class="bar-link btn btn--small js-download-svg"
+		   href="#" data-href-prefix="./icons/" download>Download SVG</a>
+		<a class="bar-link btn btn--small js-copy-svg tip-n tip-vSticky"
+		   href="#" aria-label="Copied to clipboard">Copy SVG</a>
 	</nav>
 </div>
 

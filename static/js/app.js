@@ -81,6 +81,8 @@ var main = function () {
 				_this2.$popup.find('.popup-title').text($item.data('name'));
 				_this2.$popup.find('.popup-icon').replaceWith($svg.addClass('icon popup-icon'));
 				_this2.$popup.find('.popup-icon-code').text(svgCode);
+				var $downloadBtn = $('.js-download-svg');
+				$downloadBtn.attr('href', $downloadBtn.data('href-prefix') + $item.data('name') + '.svg');
 
 				_this2.$wrap.addClass('wrap--blur');
 				_this2.$popup.addClass('is-active');

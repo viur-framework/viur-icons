@@ -69,7 +69,7 @@ if __name__ == "__main__":
 	template = templateFH.read().decode('utf-8')
 	templateFH.close()
 
-	content = template.replace("{{icons}}", iconList.generateHTML())
+	content = template.replace("{{ icons }}", iconList.generateHTML())
 
 	target = open("index.html", "w")
 	target.write(content)

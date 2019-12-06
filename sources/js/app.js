@@ -61,6 +61,8 @@ class main {
 			this.$popup.find('.popup-title').text($item.data('name'));
 			this.$popup.find('.popup-icon').replaceWith($svg.addClass('icon popup-icon'));
 			this.$popup.find('.popup-icon-code').text(svgCode);
+			let $downloadBtn = $('.js-download-svg');
+			$downloadBtn.attr('href', $downloadBtn.data('href-prefix') + $item.data('name') + '.svg');
 
 			this.$wrap.addClass('wrap--blur');
 			this.$popup.addClass('is-active');
