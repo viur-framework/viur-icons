@@ -77,32 +77,6 @@
 				<div class="list js-icon-list" data-bg="white" data-fill="grey">
 
 					
-<div class="list-item is-active" data-name="LICENSE">
-	MIT License
-
-Copyright (c) 2020 ViUR
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-
-	<span class="list-item-name">LICENSE</span>
-</div>
-
 <div class="list-item is-active" data-name="add">
 	<svg class="icon list-item-icon" id="Ebene_1" data-name="Ebene 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60"><title>attribute-</title><polygon points="49.97 32.22 49.97 25.61 33.43 25.61 33.43 9.07 26.82 9.07 26.82 25.61 10.28 25.61 10.28 32.22 26.82 32.22 26.82 48.76 33.43 48.76 33.43 32.22 49.97 32.22" fill="#fff"/></svg>
 	<span class="list-item-name">add</span>
@@ -452,60 +426,6 @@ SOFTWARE.
 <div class="list-item is-active" data-name="delivery-note">
 	<svg class="icon list-item-icon" id="Ebene_1" data-name="Ebene 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60"><title>attribute-</title><polygon points="24.29 8.17 14.07 19.91 24.29 19.91 24.29 8.17" fill="#fff" opacity="0.5"/><path d="M24.29,8.17V19.91H14.07V51.83H45.93V8.17Zm5.37,32.59c-5.58,0-9.45-3.76-10.78-8.76h1.5c.55,2,1.49,2.47,2.7,3.7a11,11,0,0,1-.23-2.24,5.65,5.65,0,0,1,5.65-5.65,5.74,5.74,0,0,1,5.66,5.75A7.22,7.22,0,0,1,33.73,36a7.28,7.28,0,0,0,2.17-6h5.22C40.59,35,34.57,40.76,29.66,40.76Z" fill="#fff"/><path d="M28.5,29.66a3.64,3.64,0,1,0,3.64,3.63A3.64,3.64,0,0,0,28.5,29.66Z" fill="#fff"/></svg>
 	<span class="list-item-name">delivery-note</span>
-</div>
-
-<div class="list-item is-active" data-name="deploy">
-	name: Build and Update GitHub Page Branch
-on:
-  push:
-    branches:
-      - "feature/viur-3.0"
-
-jobs:
-  deploy:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout gh-pages
-        uses: actions/checkout@v2.3.1
-        with:
-          ref: gh-pages
-
-      - name: Load submodules
-        run: |
-          git submodule set-url icons $GITHUB_SERVER_URL/$GITHUB_REPOSITORY.git
-          git submodule init
-          git submodule update --recursive
-
-      - name: Update submodule icons to the current commit
-        run: |
-          pushd icons
-          git checkout ${{ github.sha }}
-          git status
-          popd
-
-      - name: Build index.html (Icon List)
-        run: |
-          echo "::debug::Using `python3 -V`"
-          python3 buildIconList.py
-
-      - name: Perform npm install and gulp
-        run: |
-          pushd sources
-          npm ci
-          npx gulp
-          popd
-
-      - name: Commit and push
-        run: |
-          git fetch --all
-          echo "::debug::Author: $GITHUB_ACTOR";
-          echo "::debug::Author Email: `git show -s --format='%ae' ${{ github.sha }}`";
-          git config --global user.name "$GITHUB_ACTOR"
-          git config --global user.email `git show -s --format='%ae' ${{ github.sha }}`
-          git commit -asm "GitHub Page Build for ${{ github.sha }}" --allow-empty
-          git push origin gh-pages
-
-	<span class="list-item-name">deploy</span>
 </div>
 
 <div class="list-item is-active" data-name="desktop">
