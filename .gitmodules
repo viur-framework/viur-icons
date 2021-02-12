@@ -1,6 +1,6 @@
 [submodule "icons"]
 	path = icons
-	url = https://github.com/viur-framework/icons.git
+	url = https://github.com/viur-framework/viur-icons.git
 [submodule "sources/less/ignite"]
 	path = sources/less/ignite
 	url = https://github.com/viur-framework/ignite.git
