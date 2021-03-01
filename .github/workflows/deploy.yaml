@@ -1,0 +1,49 @@
+name: Build and Update GitHub Page Branch
+on:
+  push:
+    branches:
+      - "feature/viur-3.0"
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout gh-pages
+        uses: actions/checkout@v2.3.1
+        with:
+          ref: gh-pages
+
+      - name: Load submodules
+        run: |
+          git submodule set-url icons $GITHUB_SERVER_URL/$GITHUB_REPOSITORY.git
+          git submodule init
+          git submodule update --recursive
+
+      - name: Update submodule icons to the current commit
+        run: |
+          pushd icons
+          git checkout ${{ github.sha }}
+          git status
+          popd
+
+      - name: Build index.html (Icon List)
+        run: |
+          echo "::debug::Using `python3 -V`"
+          python3 buildIconList.py
+
+      - name: Perform npm install and gulp
+        run: |
+          pushd sources
+          npm ci
+          npx gulp
+          popd
+
+      - name: Commit and push
+        run: |
+          git fetch --all
+          echo "::debug::Author: $GITHUB_ACTOR";
+          echo "::debug::Author Email: `git show -s --format='%ae' ${{ github.sha }}`";
+          git config --global user.name "$GITHUB_ACTOR"
+          git config --global user.email `git show -s --format='%ae' ${{ github.sha }}`
+          git commit -asm "GitHub Page Build for ${{ github.sha }}" --allow-empty
+          git push origin gh-pages
