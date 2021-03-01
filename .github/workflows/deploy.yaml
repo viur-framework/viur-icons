@@ -2,7 +2,7 @@ name: Build and Update GitHub Page Branch
 on:
   push:
     branches:
-      - "feature/viur-3.0"
+      - "master"
 
 jobs:
   deploy:
