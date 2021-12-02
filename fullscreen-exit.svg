@@ -1,8 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="10 10 51 51">
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 60 60" style="enable-background:new 0 0 60 60;" xml:space="preserve">
 <g>
-	<polygon fill="currentcolor" points="21,10.1 21,21 10.1,21 10.1,24 24,24 24,10.1  "/>
-	<polygon fill="currentcolor" points="49.9,21 39,21 39,10.1 36,10.1 36,24 49.9,24  "/>
-	<polygon fill="currentcolor" points="39,49.9 39,39 49.9,39 49.9,36 36,36 36,49.9  "/>
-	<polygon fill="currentcolor" points="10.1,39 21,39 21,49.9 24,49.9 24,36 10.1,36  "/>
+	<polygon fill="currentcolor" points="21,10.1 21,21 10.1,21 10.1,24 24,24 24,10.1 	"/>
+	<polygon fill="currentcolor" points="49.9,21 39,21 39,10.1 36,10.1 36,24 49.9,24 	"/>
+	<polygon fill="currentcolor" points="39,49.9 39,39 49.9,39 49.9,36 36,36 36,49.9 	"/>
+	<polygon fill="currentcolor" points="10.1,39 21,39 21,49.9 24,49.9 24,36 10.1,36 	"/>
 </g>
 </svg>
