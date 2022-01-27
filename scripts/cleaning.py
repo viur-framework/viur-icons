@@ -4,6 +4,9 @@ from svgelements import *
 
 iconRoot = ".."
 
+blockList = ["dot"]
+
+
 for filename in os.listdir(iconRoot):
     if not filename.endswith(".svg"):
         continue
@@ -11,7 +14,7 @@ for filename in os.listdir(iconRoot):
     filePath = os.path.join(iconRoot, filename)
     source = open(filePath,'r').read()
 
-    if 'viewBox="0 0 60 60"' in source:
+    if 'viewBox="0 0 60 60"' in source and filename.replace(".svg","") not in blockList:
         # update default viewBox
         svg = SVG.parse(filePath)
         viewBox = [math.ceil(v) for v in svg.bbox()]
